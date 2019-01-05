@@ -10,30 +10,26 @@ Component({
       type: Array,    
       value: [{
         title: 'Age',
-        dataIndex: 'age',
-        key: 'age'
+        dataIndex: 'Age',
+        key: 'Age'
       },{
           title: 'Name',
           dataIndex: 'Name',
           key: 'Name'
         }, {
           title: 'Address',
-          dataIndex: 'address',
-          key: 'address',
-        }, {
-          title: 'aaa',
-          dataIndex: 'aaa',
-          key: 'aaa',
+          dataIndex: 'Address',
+          key: 'Address',
         }]
     },
     data:{
       type:Array,
       value:[{
-        "Age": 111, "Name":222,"Address":333,"aaa":444
+        "Age": 11, "Name":'小红',"Address":'北京',
       }, {
-        "Age": 222, "Name": 333, "Address": 444, "aaa": 555
+        "Age": 22, "Name": '小明', "Address": '北京',
       }]
-    }
+    },
   },
 
   /**
